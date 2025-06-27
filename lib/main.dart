@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       // 1. Adicionar o AppBar
       appBar: AppBar(
-        title: const Text('Página Inicial'),
+        title: const Text('Página Inicial!'),
         // O ícone do menu (hambúrguer) é adicionado automaticamente
         // quando um Drawer está presente no Scaffold.
       ),
