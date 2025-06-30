@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                 color: Colors.purple, // Cor de fundo do cabeçalho do Drawer
               ),
               child: Text(
-                'Menu do nosso app',
+                'Menu do nosso App',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,
