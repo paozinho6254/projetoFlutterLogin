@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Login Demo',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.purple,
       ),
       home: const HomeScreen(),
     );
@@ -42,10 +42,10 @@ class HomeScreen extends StatelessWidget {
             // 3. Adicionar um DrawerHeader (Opcional, mas recomendado para estilo)
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.deepOrangeAccent, // Cor de fundo do cabeçalho do Drawer
+                color: Colors.purple, // Cor de fundo do cabeçalho do Drawer
               ),
               child: Text(
-                'Menu',
+                'Menu do nosso app',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,
@@ -88,7 +88,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 30),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.deepOrangeAccent, // Cor de fundo do botão
+                backgroundColor: Colors.purple, // Cor de fundo do botão
                 foregroundColor: Colors.white, // Cor do texto do botão
                 padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                 textStyle: const TextStyle(fontSize: 18),
